@@ -1,0 +1,9 @@
+Package: com.nightwind.sileorespringfix
+Name: SileoRespringFix
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Changes "sbreload" in Sileo to "killall SpringBoard" to avoid a bug in Dopamine where a black screen happens.
+Maintainer: Nightwind
+Author: Nightwind
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
